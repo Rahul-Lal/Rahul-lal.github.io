@@ -2,13 +2,209 @@
   <html>
       <head>
           <title>My blog</title>
-          <link rel="stylesheet" href="style.css" />
+          <link rel="stylesheet" href="css\style.css" />
+          <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
           <meta http-equiv="refresh" content="5">
         </head>
         
         <body>
-            <h1>Hello World!</h1>
-            <p> This is the beginning of my website home page.</p>
-            <p> It will eventually contain a list of links to all my blogs. </p>
+            <!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Rahul Lal | Web Developer
+    </title>
+    <link rel="stylesheet" href="..\portfolio\cs\style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="..\portfolio\js\script.js"></script>
+    <meta http-equiv="refresh" content="5">
+
+</head>
+
+<body onload="plusSlides(0)">
+
+
+    <!--Main Body-->
+    <section align="center" id="openingImage" class="openingImage"
+        style="background-image: url(source-code-583537_SMALL.jpg);">
+        <br><br><br><br><br><br><br><br>
+        <h2>Rahul Lal</h2>
+        <h3>Aspiring web developer from Auckland, New Zealand</h3>
+        <a href="#About"><button id="aboutButton" class="aboutButton">About Me</button></a>
+    </section>
+    
+    <!--Header-->
+    <div align="center" id="header" class="header">
+        <table>
+            <th>
+                <a class="headerLink" href="#Projects">
+                    <button>
+                        Project
+                    </button>
+                </a>
+            </th>
+            <th>
+                    <a class="headerLink" href="#Blog">
+                        <button>
+                            Blog
+                        </button>
+                    </a>
+            </th>
+            <th>
+                <a style="vertical-align: middle;" href="#openingImage">
+                    <button id="mainLogo">
+                        Rahul Lal
+                    </button>
+                </a>                
+            </th>
+            <th>
+                <a class="headerLink" href="#Contact"><button>Resume</button></a>                
+            </th>
+            <th>
+                <a class="headerLink" href="#Contact"><button>Contact</button></a>                
+            </th>
+        </table>
+       
+
+    </div>
+
+    <section id="About" align="center">
+        <div id="aboutdiv" align="center">
+            <br><br>
+            <br><br>
+            <h1>About Myself</h1>
+            <h4>
+                My name is Rahul Lal. I'm pursuing a career as a software developer
+            </h4>
+            <p>
+                My career path began in early 2011, the year I started <a
+                    href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/">NCEA</a> Level 1 at <a
+                    href="https://www.pakuranga.school.nz/" target="_blank">Pakuranga College</a>. I was placed in a
+                generic computing course to complete my school timetable. I was amazed by the content that people would
+                think they could do in their sleep. This content consists of touch-typing, understandig the Microsoft
+                Office Suite, and basic HTML and CSS. I continued to take the classes for my last two years of school.
+                That got me to chose to have a career in Information Technology.
+                <br><br>
+                A few months after graduating from college, I started studying the <a
+                    href="http://www.computerpowerplus.ac.nz/Diploma-in-Software-Development-Level5.html" target="_blank">Diploma in Software Development</a> at <a
+                    href="http://www.computerpowerplus.ac.nz/" target="_blank">Computer Power Plus</a>. I chose Computer Power Plus as oppose to university, as
+                they focus on skill than academics, self-pace & directed learning as oppose to lectures & labs, and to
+                build on my current skillset at that time.
+                <br><br>
+                During my time as a Computer Power Plus student, I learned various programming languages from SQL, Java
+                and C#. Other areas such as database development, SDLC, and project management. I also learned things
+                outside of my course, such as dressing to impress, finding direction from expierence (in general), and
+                other tricks that could help impress an employer. I was also out of comfort zone, surrounded with
+                students who are older than me and have expierence.
+                <br><br>
+                By late July, I had completed my diploma. I didn't decided not to find work immediately, not before I
+                gain some work expierence. As a ex-school graduate who completed a IT diploma, finding work will be a
+                drag. So gaining prior expierence would expose me to the real-world enviroment, expand my skills,
+                connect with other in industry. On my last attempt, I didn't have enough skills to be exposed to
+                real-world expierence. So I chose to continue study.
+                <br><br>
+                On early April, I started studying the <a
+                    href="https://static1.squarespace.com/static/5637e700e4b0c91b095e8627/t/56afd3c6b09f95166bbc125b/1454363591703/AMES+Diploma+in+Distributed+Software+Development.pdf"
+                    target="_blank">Diploma in Distributed Software Development</a> at <a href="http://www.ames.ac.nz/"
+                    target="_blank">AMES IT</a>.
+                <br><br><br>
+
+                <img id="aboutImage" class="aboutImage" src="..\portfolio\images\Merit Scholar.jpg"
+                    title="Awarded the Merit Scholar Award" />
+            </p>
+        </div>
+    </section>
+
+    <section id="Projects" align="center">
+        <div id="projectBody" align="center" class="slideshow-container">
+            <br><br>
+            <br><br>
+            <br>
+            <h1>Projects</h1>
+            <!--Slideshow-->
+            <!--Link Reference: http://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+            <div class="fadingSlide">
+                <img src="..\portfolio\images\Karate Club - Pakuranga Homepage.png" class="projectImage">
+                <h5>Pakuranga Karate Club Website</h5>
+                <p>
+                    As part of a school project, I did for my year 12 Computing and Information Technology course. The
+                    site is made for a fictionaous martial arts club to help increase the number of members joining.
+                    This is done using HTML/CSS, Microsoft Sharepoint Designer, and Adobe Photoshop.
+                    <br><br>
+                    I should point out that this site is not active.
+                </p>
+            </div>
+
+            <div class="fadingSlide">
+                <img src="..\portfolio\images\Java Calculator.png" class="projectImage">
+                <h5>Java Calculator</h5>
+                <p>
+                    As the project of one of the programming concepts at Computer Power Plus. This calculator is made to
+                    perform basic numeric operation such as adding and multiplying of two values. Also it has special
+                    trigometic functions that visable if selected. This is done by using Java programming language and
+                    Netbeans IDE 6.1 to construct the application.
+                    <br><br>
+                </p>
+            </div>
+
+            <div class="fadingSlide">
+                <img src="..\portfolio\images\Nandoso - Live Chat.png" class="projectImage">
+                <h5>Nandoso Application</h5>
+                <p>
+                    During the second phase of the Microsoft Student Accelerator. Students were tasked to create a web
+                    application for the Mt Eden's Nandoso restaurant (A fictitious version of Nandos). The main features
+                    include real-time live chat (using SignalR), and feedback page using Facebook plugin for comments.
+                    <br><br>
+                    Link: <a
+                        href="http://nandosomteden.azurewebsites.net/index.html">http://nandosomteden.azurewebsites.net/index.html</a>
+                </p>
+            </div>
+
+            <a onclick="plusSlides(-1)"><button class="prev">&#10094;</button></a>
+            <a onclick="plusSlides(1)"><button class="next">&#10095;</button></a>
+            <br><br>
+        </div>
+    </section>
+
+    <section id="Blog" align="center">
+        <div id="mainBody" align="center">
+            <br>
+            <br><br>
+            <br><br>
+
+            <h1>Blog</h1>
+    
+        </div>
+    </section>
+
+    <section id="Contact" align="center">
+        <div id="mainBody" align="center">
+            <br>
+            <br><br>
+            <br><br>
+
+            <h1>Contact</h1>
+
+            <table style="width: 33%;">
+            <!-- LinkedIn -->
+                <tr><a href="https://www.linkedin.com/in/rahul21lal/" target="_blank"><img class="contactIcons" src="images\Logos\iconfinder_linkedin_456101.png" /></a></tr>
+            <!-- Github -->
+                <tr><a href="https://github.com/Rahul21Lal" target="_blank"><img class="contactIcons" src="images\Logos\iconfinder_github-icon_456098.png" /></a></tr>
+            <!-- Youtube -->
+                <tr><a href="https://www.youtube.com/channel/UCT6BnkCzawVT_PgR8uuJh1A" target="_blank"><img class="contactIcons" src="images\Logos\iconfinder_youtube-icon_456113.png" /></a></tr>
+            <!--  -->
+            </table>
+
+        </div>
+    </section>
+</body>
+</html>
         </body>
     </html>
