@@ -8,57 +8,56 @@
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="..\js\script.js"></script>
+    <script src="../Rahul-lal.github.io/js/script.js"></script>
+
+    <meta >
 </head>
 
-<body onload="plusSlides(0)" id="openingImage">
-    <!--Main Body-->
-    <section align="center" class="openingImage"
-        style="background-image: url(source-code-583537_SMALL.jpg);">
+<body onload="plusSlides(0)" id="openingImage" class="header">
+
+        
+    <section align="center" class="openingImage">
         <br><br><br><br><br><br><br><br>
         <h2>Rahul Lal</h2>
         <h3>Aspiring web developer from Auckland, New Zealand</h3>
         <a href="#About"><button id="aboutButton" class="aboutButton">About Me</button></a>
     </section>
-    
+
     <!--Header-->
-    <div align="center" id="header" class="header">
-        <table>
-            <th>
-                <a class="headerLink" href="#Projects">
-                    <button>
-                        Project
-                    </button>
-                </a>
-            </th>
-            <th>
-                    <a class="headerLink" href="#Blog">
+    <div align="center" id="navbar" class="navbar">
+            <table>
+                <th>
+                    <a class="headerLink" href="#Projects">
                         <button>
-                            Blog
+                            Project
                         </button>
                     </a>
-            </th>
-            <th>
-                <a style="vertical-align: middle;" href="#openingImage">
-                    <button id="mainLogo">
-                        Rahul Lal
-                    </button>
-                </a>                
-            </th>
-            <th>
-                <a class="headerLink" href="#Contact"><button>Resume</button></a>                
-            </th>
-            <th>
-                <a class="headerLink" href="#Contact"><button>Contact</button></a>                
-            </th>
-        </table>
-       
+                </th>
+                <th>
+                        <a class="headerLink" href="#Blog">
+                            <button>
+                                Blog
+                            </button>
+                        </a>
+                </th>
+                <th>
+                    <a href="#openingImage">
+                        <button id="mainLogo">
+                            Rahul Lal
+                        </button>
+                    </a>                
+                </th>
+                <th>
+                    <a class="headerLink" href="#Contact"><button>Resume</button></a>                
+                </th>
+                <th>
+                    <a class="headerLink" href="#Contact"><button>Contact</button></a>                
+                </th>
+            </table>
+        </div>
 
-    </div>
-
-    <section id="About" align="center">
-        <div id="aboutdiv" align="center">
+    
+    <section id="About" align="center"  class="content">
             <br><br>
             <br><br>
             <h1>About Myself</h1>
@@ -96,22 +95,20 @@
                     href="https://static1.squarespace.com/static/5637e700e4b0c91b095e8627/t/56afd3c6b09f95166bbc125b/1454363591703/AMES+Diploma+in+Distributed+Software+Development.pdf"
                     target="_blank">Diploma in Distributed Software Development</a> at <a href="http://www.ames.ac.nz/"
                     target="_blank">AMES IT</a>.
-                <br><br><br>
-
-                <img id="aboutImage" class="aboutImage" src="..\portfolio\images\Merit Scholar.jpg"
-                    title="Awarded the Merit Scholar Award" />
+                
             </p>
-        </div>
+
+                <img id="aboutImage" class="aboutImage" src="..\portfolio\images\Merit Scholar.jpg" title="Awarded the Merit Scholar Award" />
     </section>
 
-    <section id="Projects" align="center">
-        <div id="projectBody" align="center" class="slideshow-container">
+    <section id="Projects" align="center"  class="content">
+            <h1>Projects</h1>
+        <!--<div id="projectBody" align="center" class="slideshow-container">
             <br><br>
             <br><br>
             <br>
-            <h1>Projects</h1>
-            <!--Slideshow-->
-            <!--Link Reference: http://www.w3schools.com/howto/howto_js_slideshow.asp -->
+            <Slideshow-->
+            <!--Link Reference: http://www.w3schools.com/howto/howto_js_slideshow.asp
 
             <div class="fadingSlide">
                 <img src="..\portfolio\images\Karate Club - Pakuranga Homepage.png" class="projectImage">
@@ -152,29 +149,26 @@
 
             <a onclick="plusSlides(-1)"><button class="prev">&#10094;</button></a>
             <a onclick="plusSlides(1)"><button class="next">&#10095;</button></a>
-            <br><br>
-        </div>
+            <br><br> -->
     </section>
 
-    <section id="Blog" align="center">
-        <div id="mainBody" align="center">
+    <section id="Blog"" align="center"  class="content">
             <br>
             <br><br>
             <br><br>
 
             <h1>Blog</h1>
             <p>
-                <a href="../blog/classesvsids.html">Classes vs ID's</a> |
-                <a href="../blog/sprint1inanutshell.html">Sprint 1 in a nut-shell</a> |
+                <a target="_blank" href="../Rahul-lal.github.io/blog/classesvsids.html">Classes vs ID's</a> |
+                <a target="_blank" href="../Rahul-lal.github.io/blog/sprint1inanutshell.html">Sprint 1 in a nut-shell</a> |
+                <a target="_blank" href="../Rahul-lal.github.io/blog/sprint1-cultural.html">Sprint 1 Cultural</a> |
+                <a target="_blank" href="../Rahul-lal.github.io/blog/sprint2-cultural.html">Sprint 2 Cultural</a> |
+                <a target="_blank" href="../Rahul-lal.github.io/blog/sprint3-cultural.html">Sprint 3 Cultural</a> |
             </p>
-        </div>
     </section>
 
-    <section id="Contact" align="center">
-        <div id="mainBody" align="center">
+    <section id="Contact" align="center"  class="content">
             <br>
-            <br><br>
-            <br><br>
 
             <h1>Contact</h1>
 
@@ -185,13 +179,10 @@
                 <tr><a href="https://github.com/Rahul21Lal" target="_blank"><img class="contactIcons" src="images\Logos\iconfinder_github-icon_456098.png" /></a></tr>
             <!-- Youtube -->
                 <tr><a href="https://www.youtube.com/channel/UCT6BnkCzawVT_PgR8uuJh1A" target="_blank"><img class="contactIcons" src="images\Logos\iconfinder_youtube-icon_456113.png" /></a></tr>
-            <!--  -->
             </table>
 
-        </div>
     </section>
 
-    <script src="..\js\script.js"></script>
-
+    <script src="../Rahul-lal.github.io/js/script.js"></script>
         </body>
     </html>
