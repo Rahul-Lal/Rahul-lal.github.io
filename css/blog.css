@@ -197,7 +197,8 @@ h6 {
 
 #readMore
 {
-    background-color: transparent;
+    background-color: #222222;
+    opacity: 0.75;
     border-radius: 13%;
     color: #C2E6F9;
     width: 250px;
