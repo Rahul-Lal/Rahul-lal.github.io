@@ -20,3 +20,8 @@ function myFunction()
     navbar.classList.remove("sticky");
   }
 }
+
+function warnUserOfResume()
+{
+  alert("You have downloaded a copy of my resume\n\n Enjoy!");
+}

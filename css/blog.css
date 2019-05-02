@@ -151,6 +151,7 @@ h6 {
 }
 
 #header {
+    z-index: 10;
     position: fixed;
     overflow: visible;
     width: 100%;
@@ -197,6 +198,7 @@ h6 {
 
 #readMore
 {
+    z-index: 10;
     background-color: #222222;
     opacity: 0.75;
     border-radius: 13%;
