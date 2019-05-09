@@ -25,3 +25,44 @@ function warnUserOfResume()
 {
   alert("You have downloaded a copy of my resume\n\n Enjoy!");
 }
+
+
+function testSum()
+{
+  var expected = 7;
+  var actual = sum(5, 2)
+  
+  if (actual != expected)
+  {
+    console.log("It's broken..");
+  }
+  else
+  {
+    console.log("It works!");
+  }
+}
+
+
+function secondTestSum(hopefullyTrue)
+{
+  if(typeof hopefullyTrue === "boolean")
+  {
+    if (hopefullyTrue === true)
+    {
+      console.log("It works!");
+    }
+    else
+    {
+      console.log("It's broken..");
+    }
+  }
+  else
+  {
+    console.log("IT HAS TO BE A BOOLEAN!!!!");
+  }
+
+  secondTestSum("true");
+  secondTestSum(69);
+  secondTestSum(true);
+  secondTestSum(false);
+}
