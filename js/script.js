@@ -60,9 +60,4 @@ function secondTestSum(hopefullyTrue)
   {
     console.log("IT HAS TO BE A BOOLEAN!!!!");
   }
-
-  secondTestSum("true");
-  secondTestSum(69);
-  secondTestSum(true);
-  secondTestSum(false);
 }
