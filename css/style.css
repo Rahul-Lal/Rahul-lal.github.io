@@ -43,6 +43,15 @@ button {
     color: rgb(37, 118, 224);
 }
 
+.thumbnail-blogimage
+{
+    width: 275px;
+    height: 125px;
+    font-size: 25px;
+    color: white;
+    alt: initial;
+}
+
 a {
     text-decoration: none;
     color: #4979ED;
