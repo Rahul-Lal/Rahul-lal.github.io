@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 /*
 	Phantom by HTML5 UP
@@ -103,9 +104,6 @@ input, select, textarea {
 		background: #080808;
 	}
 
-	.title {
-	}
-
 	a.title:hover {
 		transition-duration: 0.75;
 	}
@@ -171,16 +169,16 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	h1 {
 		font-size: 2.125em;
-		font-family: 'Ubuntu', sans-serif;
-		font-weight: 700;
+		font-family: 'Russo One', sans-serif;
 		line-height: 1.3;
 		color: #ffffff;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: 0.035em;
 	}
 
 		h1 a {
@@ -218,6 +216,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		font-family: 'Russo One', sans-serif;
 	}
 
 	h3 {
@@ -2209,10 +2208,12 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	select {
+		color: #eeeeee;
 		height: 3em;
 	}
 
 	textarea {
+		color: #eeeeee;
 		padding: 0;
 		min-height: 3.75em;
 	}
@@ -2715,7 +2716,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #1c7dbe;
+				background-image: url('../../images/pic02.jpg');
 			}
 
 			.tiles article.style2 > .image:before {
@@ -3008,7 +3009,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #131313;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3040,6 +3041,10 @@ input, select, textarea {
 				#menu > .inner > ul > li {
 					padding: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.15);
+				}
+
+				#menu > .inner > ul:hover {
+					color: #1c7dbe;
 				}
 
 					#menu > .inner > ul > li a {
