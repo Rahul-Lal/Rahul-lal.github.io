@@ -234,7 +234,7 @@ a:visited,
     outline: 0px, none, transparent;
 }
 
-.projectButton::visited {
+.projectButton:visited {
     border: 0px, none, transparent;
     outline: 0px, none, transparent;
 }
@@ -244,4 +244,17 @@ a:visited,
     height: 240px;
     position: initial;
     margin: auto;
+}
+
+td {
+    text-align: center;
+    opacity: 0.33;
+    filter: grayscale(100%);
+    
+}
+
+td:hover {
+    transition-duration: 0.75s;
+    opacity: 0.8;
+    filter: grayscale(0%);
 }
