@@ -15,8 +15,11 @@
 
 
     <script src="./js/script.js"></script>
-    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+
+<!--Header-->
 
 <body class="header">
     <header align="center" class="openingImage">
@@ -25,7 +28,7 @@
         <a href="#about"><button class="aboutButton">About Me</button></a>
     </header>
 
-    <!--Header-->
+    <!--Navigation Bar-->
     <div class="topnav" align="center">
         <a href="#about">About</a>
         <a href="#project">Project</a>
@@ -38,121 +41,93 @@
         <br><br>
         <h2>About</h2>
         <p>
-            I’m a junior full-stack web developer based in Auckland, with hands-on experience building applications using JavaScript, Node.js, React.js, Knex.js, and Git/GitHub. I’ve worked on both independent and team projects, applying Agile methodologies and integrating APIs to create responsive, functional applications. My journey has included formal training at Enspiral Dev Academy, internships supporting SMEs with their eCommerce platforms, and a steady stream of personal projects that let me explore front-end and back-end development.
+            I’m a junior full-stack web developer based in Auckland, with hands-on experience building applications
+            using JavaScript, Node.js, React.js, Knex.js, and Git/GitHub. I’ve worked on both independent and team
+            projects, applying Agile methodologies and integrating APIs to create responsive, functional applications.
+            My journey has included formal training at Enspiral Dev Academy, internships supporting SMEs with their
+            eCommerce platforms, and a steady stream of personal projects that let me explore front-end and back-end
+            development.
             <br><br>
-            Before tech, I built my work ethic in high-pressure environments like Carl’s Jr, where I managed shifts, solved problems on the fly, and learned the value of teamwork and process. That background taught me adaptability, leadership, and attention to detail—skills I now apply in coding and project work. My goal is to grow as a developer by contributing to meaningful projects, collaborating with others, and continuing to sharpen both my technical expertise and creative problem-solving.
+            Before tech, I built my work ethic in high-pressure environments like Carl’s Jr, where I managed shifts,
+            solved problems on the fly, and learned the value of teamwork and process. That background taught me
+            adaptability, leadership, and attention to detail—skills I now apply in coding and project work. My goal is
+            to grow as a developer by contributing to meaningful projects, collaborating with others, and continuing to
+            sharpen both my technical expertise and creative problem-solving.
         </p>
-        <h2>Skills</h2>
-        <table align="center">
-            <tr>
-                <td class="skill">
-                    <h6> HTML</h6>
-                </td>
-                <td class="skill">
-                    <h6>CSS</h6>
-                </td>
-                <td class="skill">
-                    <h6>Javascript</h6>
-                </td>
-            </tr>
-            <tr>
-                <td class="skill">
-                    <h6>C#</h6>
-                </td>
-                <td class="skill">
-                    <h6>Java</h6>
-                </td>
-                <td class="skill">
-                    <h6>SQL/T-SQL</h6>
-                </td>
-            </tr>
-        </table>
-    </section>
 
-    <section id="project" class="projects" align="center" class="content">
-        <div align="center">
-            <h2>Projects</h2>
-            <br>
-                <table>
-                    <tr align="center">
-                        <td>
-                            <a href="./projects/dicey-die.html">
-                                <span class="image">
-                                    <img src="./images/dicey-die.png" style="height: 175px;"
-                                        alt="front page of application" />
-                                </span>
-                                <h3>Dicey Die</h3>
-                            </a>
-                            <p>Virtual Dice Roll</p>
-                        </td>
-                        <td>
-                            <a href="./projects/whoisthedoctor.html">
-                                <span class="image">
-                                    <img src="./images/whoisthedoctor.png" style="height: 175px;"
-                                        alt="front page of application" />
-                                </span>
-                                <h3>Who is the Doctor</h3>
-                            </a>
-                            <p>Doctor Who Image Generator</p>
-                        </td>
-                        <td>
-                            <a href="./projects/Sabalarm.html">
-                                <span class="image">
-                                    <img src="./images/Sabalarm.png" style="height: 175px;"
-                                        alt="front page of application" />
-                                </span>
-                                <h3>Sabalarm</h3>
-                            </a>
-                            <p>A Sabaton themed alarm clock.</p>
-                        </td>
-                    </tr>
-                    <!--
-                <tr align="center">
-                    <td>
-                        <a href="./projects/">
-                            <span class="image">
-                                <img src="./images/" style="height: 175px;" alt="front page of application" />
-                            </span>
-                            <h3>Insert Title Here</h3>
-                        </a>
-                        <p>Insert Descriptio Here</p>
-                    </td>
-                    <td>
-                        <a href="./projects/">
-                            <span class="image">
-                                <img src="./images/" style="height: 175px;" alt="front page of application" />
-                            </span>
-                            <h3>Insert Title Here</h3>
-                        </a>
-                        <p>Insert Descriptio Here</p>
-                    </td>
-                    <td>
-                        <a href="./projects/">
-                            <span class="image">
-                                <img src="./images/" style="height: 175px;" alt="front page of application" />
-                            </span>
-                            <h3>Insert Title Here</h3>
-                        </a>
-                        <p>Insert Descriptio Here</p>
-                    </td>
-                </tr>
-            -->
-                </table>
-            <br>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>
+                <h6>HTML</h6>
+            </span>
+            <span>
+                <h6>CSS</h6>
+            </span>
+            <span>
+                <h6>JavaScript</h6>
+            </span>
+            <span>
+                <h6>C#</h6>
+            </span>
+            <span>
+                <h6>Java</h6>
+            </span>
+            <span>
+                <h6>SQL/T-SQL</h6>
+            </span>
         </div>
     </section>
+
+    <section id="project" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="./images/dicey-die.png" alt="Dicey Die screenshot">
+                <h3>Dicey Die</h3>
+                <p>Virtual Dice Roller |
+                    <a href="https://rahul-lal.github.io/dicey-die" target="_blank">Click Here</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/whoisthedoctor.png" alt="Who is the Doctor screenshot">
+                <h3>Who is the Doctor</h3>
+                <p>Doctor Who Image Generator |
+                    <a href="https://rahul-lal.github.io/doctorwhom" target="_blank">Click Here</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/Sabalarm.png" alt="Sabalarm screenshot">
+                <h3>Sabalarm</h3>
+                <p>A Sabaton themed alarm clock |
+                    <a href="https://rahul-lal.github.io/sabalarm" target="_blank">Click Here</a>
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/porto.png" alt="Portobello Timer screenshot">
+                <h3>Portobello Timer</h3>
+                <p>A Pomodoro timer with a twist |
+                    <a href="https://rahul-lal.github.io/portobello-timer" target="_blank">Click Here</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <section id="contact" align="center" class="content">
         <br>
         <h2>Contact</h2>
-        <table style="width: 33%;">
-            <!-- LinkedIn -->
-            <tr><a href="https://www.linkedin.com/in/rahul21lal/" target="_blank"><img class="contactIcons"
-                        src="images\Logos\iconfinder_linkedin_456101.png" /></a></tr>
-            <!-- Github -->
-            <tr><a href="https://github.com/Rahul21Lal" target="_blank"><img class="contactIcons"
-                        src="images\Logos\iconfinder_github-icon_456098.png" /></a></tr>
-        </table>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/rahul21lal/" target="_blank">
+                <img src="images/Logos/iconfinder_linkedin_456101.png" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/rahul-lal" target="_blank">
+                <img src="images/Logos/iconfinder_github-icon_456098.png" alt="GitHub" />
+            </a>`
+        </div>
+            <br>
 
     </section>
 
