@@ -180,7 +180,7 @@ a:visited,
 }
 
 .projects {
-  background: url("../images/ash-edmonds-PfiCEBmKTqY-unsplash.jpg") no-repeat center center / cover;
+  background: url("../media/images/ash-edmonds-PfiCEBmKTqY-unsplash.jpg") no-repeat center center / cover;
   padding: 40px 20px;
   text-align: center;
 }
@@ -192,7 +192,7 @@ a:visited,
     padding: 0px;
 }
 .openingImage {
-    background-image: url('../images/source-code-583537_SMALL.jpg');
+    background-image: url('../media/images/source-code-583537_SMALL.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
