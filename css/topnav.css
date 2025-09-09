@@ -1,41 +1,61 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    font-family: 'Play';
-    background-color: #030303;
-    top: 0;
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    padding: 14px 16px;
-    text-align: center;
+/* Base navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: black; /* match your theme */
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    color: rgb(37, 118, 224);
-    text-align: center;
-    padding: 28px 32px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 17px;
-    vertical-align: middle;
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3399ff; /* your blue */
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: #f2f2f2;
-    text-decoration: none;
-    transition-duration: 1.25s;
-
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
 
-#maintitle {
-    font-family: 'Exo 2', serif;
-    font-size: 250%;
-    font-weight: bold;
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
 }
 
-#maintitle:hover {
-    color: #f2f2f2;
-    transition-duration: 1.25s;
+.nav-links a:hover {
+  color: #3399ff;
+}
+
+/* Mobile toggle button */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hide links by default */
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
