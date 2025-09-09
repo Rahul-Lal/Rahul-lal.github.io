@@ -161,7 +161,7 @@ a:visited,
     border-color: #C2E6F9;
     border-width: 1.25px;
     width: 80%;
-    height: 50px;
+    height: 6.6%;
     max-width: 500px;
     vertical-align: 66%;
     transition-duration: 1.25s;
@@ -283,7 +283,7 @@ a:visited,
     }
 
     .aboutButton {
-        font-size: 5%;
+        font-size: 113%;
         width: 100%;
         /* full width on mobile */
     }
