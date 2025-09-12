@@ -1,48 +1,59 @@
-/* Add a black background color to the top navigation */
 .topnav {
     position: fixed;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
     top: 0;
+    left: 0;
     width: 100%;
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* spacing between links */
+    background-color: black;
+    padding: 1rem 0;
+    z-index: 1000;
     font-family: 'Play';
-    background-color: #030303;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    vertical-align: middle;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1rem;
-    font-size: 125%;
     color: rgb(37, 118, 224);
+    text-transform: uppercase;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: #f2f2f2;
+.topnav a {
+    color: white;
     text-decoration: none;
-    transition-duration: 1.25s;
-
+    font-size: 1.33rem;
+    transition: color 0.2s;
 }
+
+.topnav a:hover {
+    color: #3399ff;
+}
+
+.topnav #maintitle {
+    font-family: 'Exo 2', serif;
+    color: #3399ff;
+    /* highlight Rahul Lal */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 600px) {
+    .topnav a {
+        font-size: 0.8rem;
+    }
+
+    .topnav #maintitle {
+        font-size: 1rem;
+    }
+}
+
+/*
+    font-family: 'Play';
+    color: rgb(37, 118, 224);
+   
 
 #maintitle {
     font-family: 'Exo 2', serif;
     font-size: 250%;
     font-weight: bold;
 }
-
-#maintitle:hover {
-    color: #f2f2f2;
-    transition-duration: 1.25s;
-}
-
-@media (max-width: 600px) {
-    .topnav{
-        visibility: hidden;
-    }
-}
+*/
