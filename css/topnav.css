@@ -1,61 +1,48 @@
-/* Base navbar */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background: black; /* match your theme */
-}
-
-.logo {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #3399ff; /* your blue */
-}
-
-.nav-links {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  transition: color 0.2s;
-}
-
-.nav-links a:hover {
-  color: #3399ff;
-}
-
-/* Mobile toggle button */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none; /* hide links by default */
-    flex-direction: column;
-    background: black;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
+/* Add a black background color to the top navigation */
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    width: 100%;
     padding: 1rem;
-  }
+    font-family: 'Play';
+    background-color: #030303;
+}
 
-  .nav-links.active {
-    display: flex;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 125%;
+    color: rgb(37, 118, 224);
+}
 
-  .menu-toggle {
-    display: block;
-  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+    transition-duration: 1.25s;
+
+}
+
+#maintitle {
+    font-family: 'Exo 2', serif;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+#maintitle:hover {
+    color: #f2f2f2;
+    transition-duration: 1.25s;
+}
+
+@media (max-width: 600px) {
+    .topnav{
+        visibility: hidden;
+    }
 }
