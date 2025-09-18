@@ -1,21 +1,21 @@
 [
   {
     "title": "Dicey Die",
-    "description": "Virtual Dice Roller",
+    "description": "Alright, partner! Keep on rollin', baby",
     "image": "media/images/dicey-die.png",
     "link": "https://rahul-lal.github.io/dicey-die",
     "github": "https://github.com/rahul-lal/dicey-die"
   },
   {
     "title": "Who is the Doctor",
-    "description": "Doctor Who Image Generator",
+    "description": "Hello, I'm the Doctor!",
     "image": "media/images/whoisthedoctor.png",
     "link": "https://rahul-lal.github.io/doctorwhom",
     "github": "https://github.com/rahul-lal/doctorwhom"
   },
   {
     "title": "Sabalarm",
-    "description": "A Sabaton themed alarm clock",
+    "description": "When the winged hussars arrived.",
     "image": "media/images/Sabalarm.png",
     "link": "https://rahul-lal.github.io/sabalarm",
     "github": "https://github.com/rahul-lal/sabalarm"
