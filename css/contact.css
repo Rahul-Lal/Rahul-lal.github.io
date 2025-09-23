@@ -3,7 +3,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px; /* Space between form elements */
+    gap: 25px;
+    /* Space between form elements */
+    margin: 0 auto;
+    /* keeps it centered */
+    padding: 30px;
 }
 
 .submitButton {
@@ -23,7 +27,8 @@
     color: #fff;
 }
 
-textarea, input[type="email"] {
+textarea,
+input[type="email"] {
     width: 50em;
     padding: 15px;
     border: 1px solid #3399ff;
@@ -32,15 +37,20 @@ textarea, input[type="email"] {
     font-family: 'Play', sans-serif;
     background-color: transparent;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    /* Ensures padding and border are included in the total width and height */
 }
 
 textarea {
-    height: 150px; /* Set a fixed height for the textarea */
-    resize: vertical; /* Allow vertical resizing */
+    height: 150px;
+    /* Set a fixed height for the textarea */
+    resize: vertical;
+    /* Allow vertical resizing */
 }
 
-input[type="email"]{
+input[type="email"] {
     height: auto;
 }
 
@@ -50,4 +60,40 @@ label {
     font-weight: bolder;
     font-family: 'Play';
     text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(87.5%);
+}
+
+#github img:hover {
+    color-scheme: green;
+}
+
+.contact-icons img:hover {
+    transition-duration: 0.75s;
+    filter: grayscale(0%);
+}
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+    .contact-icons {
+        height: 48px;
+        width: 48px;
+        /* smaller icons */
+    }
 }

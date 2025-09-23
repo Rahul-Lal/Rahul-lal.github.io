@@ -115,13 +115,6 @@ li {
     color: #ffffff;
 }
 
-a :hover,
-.contactIcons :hover {
-    opacity: 1.0;
-    transition-duration: 0.75s;
-    filter: grayscale(0%);
-}
-
 a:active,
 .prev:active,
 .next:active {
@@ -137,13 +130,6 @@ a:visited,
 .header a {
     text-align: center;
     text-decoration: none;
-}
-
-.contactIcons {
-    height: 66px;
-    width: 66px;
-    opacity: 0.33;
-    filter: grayscale(87.5%);
 }
 
 .thumbnail-blogimage {
@@ -254,18 +240,6 @@ a:visited,
     font-weight: bold;
 }
 
-.contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.contact-icons img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-}
-
 .dice-container {
     text-align: center;
     margin: 20px 0;
@@ -296,12 +270,6 @@ a:visited,
         font-size: 113%;
         width: 100%;
         /* full width on mobile */
-    }
-
-    .contactIcons {
-        height: 48px;
-        width: 48px;
-        /* smaller icons */
     }
 
     .projects {
