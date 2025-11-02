@@ -97,4 +97,9 @@ label {
         width: 48px;
         /* smaller icons */
     }
+
+	textarea,
+input[type="email"]{
+	width: 50%;
+}
 }
