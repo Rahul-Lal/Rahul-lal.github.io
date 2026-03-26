@@ -40,5 +40,12 @@
     "image": "media/images/randomflick.png",
     "link": "https://rahul-lal.github.io/random-flick",
     "github": "https://github.com/rahul-lal/random-flick"
+  },
+  {
+    "title": "Burger National (Version 1)",
+    "description": "The first version of a Point of Sale system for a burger restaurant.",
+    "image": "media/images/burger-national.png",
+    "link": "https://youtu.be/IQrvA3X1Uvs?si=OrrDw7J1zB4OgXbQ",
+    "github": "https://github.com/rahul-lal/burger-national-v1"
   }
 ]
