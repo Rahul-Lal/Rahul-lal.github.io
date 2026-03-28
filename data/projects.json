@@ -14,6 +14,13 @@
     "github": "https://github.com/rahul-lal/random-flick"
   },
   {
+    "title": "Sabalarm",
+    "description": "When the winged hussars arrived.",
+    "image": "media/images/Sabalarm.png",
+    "link": "https://rahul-lal.github.io/sabalarm",
+    "github": "https://github.com/rahul-lal/sabalarm"
+  },
+  {
     "title": "Dicey Die",
     "description": "Alright, partner! Keep on rollin', baby",
     "image": "media/images/dicey-die.png",
@@ -40,12 +47,5 @@
     "image": "media/images/terrylovesgoals.png",
     "link": "https://rahul-lal.github.io/terry-loves-goals",
     "github": "https://github.com/rahul-lal/terry-loves-goals"
-  },
-  {
-    "title": "Sabalarm",
-    "description": "When the winged hussars arrived.",
-    "image": "media/images/Sabalarm.png",
-    "link": "https://rahul-lal.github.io/sabalarm",
-    "github": "https://github.com/rahul-lal/sabalarm"
   }
 ]
