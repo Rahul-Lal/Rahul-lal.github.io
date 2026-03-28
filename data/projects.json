@@ -7,6 +7,13 @@
     "github": "https://github.com/rahul-lal/burger-national-v1"
   },
   {
+    "title": "Random Flick",
+    "description": "Can't decide what to watch? Let Random Flick help you out!",
+    "image": "media/images/randomflick.png",
+    "link": "https://rahul-lal.github.io/random-flick",
+    "github": "https://github.com/rahul-lal/random-flick"
+  },
+  {
     "title": "Dicey Die",
     "description": "Alright, partner! Keep on rollin', baby",
     "image": "media/images/dicey-die.png",
@@ -40,12 +47,5 @@
     "image": "media/images/Sabalarm.png",
     "link": "https://rahul-lal.github.io/sabalarm",
     "github": "https://github.com/rahul-lal/sabalarm"
-  },
-  {
-    "title": "Random Flick",
-    "description": "Can't decide what to watch? Let Random Flick help you out!",
-    "image": "media/images/randomflick.png",
-    "link": "https://rahul-lal.github.io/random-flick",
-    "github": "https://github.com/rahul-lal/random-flick"
   }
 ]
